@@ -1,19 +1,19 @@
  body 	 { 
-  	font-size: 20px;
+  font-size: 20px;
 	background-color: #e0ebeb;
-	padding-right: 15px;
-	padding-left: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 header {
 	padding: 1em;
 	background-color: #33cc33; 
 	}
+  
 img {max-width: 100%;
 	height: auto;
 	width: auto;
 }
-
 
 .topnav {
   overflow: hidden;
@@ -70,43 +70,6 @@ padding-left: 10px;
 }
 footer { 
   font-size: 14px;
-  font-style: italic; }
-</style>
-</head>
-<body>
-
-<header>
-	<img src="https://ThereseCorrigan.github.io/islt_7360/unit5/SavedPictures/buslabel.jpg" alt="Banner of Business Logo"
-	width="1300"  height="450">	
-</header>
-
- <div class="topnav">
-    <a href="https://ThereseCorrigan.github.io/islt_7360/unit5/Corrigan_Pilot.html">Home</a>
-    <a href="https://ThereseCorrigan.github.io/islt_7360/unit5/Soaps.html">Soaps</a>
-    <a href="https://ThereseCorrigan.github.io/islt_7360/unit5/BathandBathing.html">Bath &amp; Bathing</a>
-    <a href="https://ThereseCorrigan.github.io/islt_7360/unit5/Body.html">Body</a>
-    <a class="active" href="https://ThereseCorrigan.github.io/islt_7360/final_project/EmbroideryItemsFINAL.html">Embroidery Items</a> 
-    <a href="https://ThereseCorrigan.github.io/islt_7360/unit5/AboutUs.html">About Us</a>
-    <a href="https://ThereseCorrigan.github.io/islt_7360/unit5/ContactUs.html">Contact Us</a>   
-    </div>
-
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
-<script>
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("myBtn").style.display = "block";
-    } else {
-        document.getElementById("myBtn").style.display = "none";
-    }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
-</script>
+  font-style: italic;
+  position: absolute; }
+  
