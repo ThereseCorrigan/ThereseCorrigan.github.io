@@ -1,19 +1,19 @@
  body 	 { 
-  	font-size: 20px;
+  font-size: 20px;
 	background-color: #e0ebeb;
-	padding-right: 15px;
-	padding-left: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 header {
 	padding: 1em;
 	background-color: #33cc33; 
 	}
+  
 img {max-width: 100%;
 	height: auto;
 	width: auto;
 }
-
 
 .topnav {
   overflow: hidden;
