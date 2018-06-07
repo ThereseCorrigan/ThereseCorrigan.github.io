@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>style</title>
+<meta charset="utf-8">
+  
+<style>
+
+	body { 
+		background-color: #fffdd0
+		font-style: sans-serif;  
+		}
+
+	h1 {
+		color: black;
+		font-weight: bold;
+		font-style: normal;
+		font-size: 30px;
+		text-align: center;
+	}
+
+	h2 {
+		color: blue;
+		font-size: 24px;
+		font-style: italic;
+	}
+
+	section {
+		font-family: sans-serif;
+	}
+
+	p.acoustic {
+		background-color: orange;
+	}
+
+	p.electric {
+		background-color: aqua
+	}
+
+	em, h2 {
+		font-color: #ff1493;
+	}
+
+	h3 {
+		font-color: green;
+		font-size: 18px;
+		font-style: italic;
+	}
+
+	h3, p {
+		font-color: blue violet;
+	}
+
+	p {
+		font-color: purple;
+		font-size: 14px
+
+	}
+
+	p.specialtext {
+		font-color: black;
+		font-size: 30px;
+	}
+
+	blockquote {
+		font-color: #8fbc8f;
+		font-family: serif;
+		text-align: center;
+		font-style: italic;
+	}
+
+	ul {
+		font-color: brown;
+	}
+	li{
+		font-color: firebrick red;
+	}
+
+	a.hover {
+  		color: red;
+  	}
+
+  	a.link {
+  		color: blue;
+  	}
+
+	 a.active {
+ 	 	color: red;
+	}
+
+	a.visited {
+		color: purple;
+	}
+
+
+
+
+</style>
+</head>
+<body>
