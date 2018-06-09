@@ -1,6 +1,11 @@
 	body { 
 		background-color: #fffdd0;
-		font-family: sans-serif;  
+		/*above is an ivory color*/
+		font-family: sans-serif; 
+		margin-top: 1px;
+		margin-bottom: 1px;
+		margin-right: 75px;
+		margin-left: 75px; 
 		}
 
 	h1 {
@@ -21,16 +26,17 @@
 		font-family: sans-serif;
 	}
 
-	p.acoustic {
+	.acoustic {
 		background-color: orange;
 	}
 
-	p.electric {
+	.electric {
 		background-color: aqua
 	}
 
-	em, h2 {
+	h2 > em{
 		font-color: #ff1493;
+		/*above color is deep pink*/
 	}
 
 	h3 {
@@ -39,11 +45,11 @@
 		font-style: italic;
 	}
 
-	h3, p {
+	h3 + p {
 		font-color: blue violet;
 	}
 
-	p {
+	h3 > p {
 		font-color: purple;
 		font-size: 14px
 
@@ -56,6 +62,7 @@
 
 	blockquote {
 		font-color: #8fbc8f;
+		/*above color is dark sea green*/
 		font-family: serif;
 		text-align: center;
 		font-style: italic;
@@ -68,25 +75,24 @@
 		font-color: firebrick red;
 	}
 
-	a.hover {
-  		color: yellow;
-  	}
-
-  	a.link {
+	a:link {
   		color: blue;
-  	}
-
-	 a.active {
- 	 	color: red;
 	}
-
-	a.visited {
+  	
+	a:visited {
 		color: purple;
 	}
 
+	a:hover {
+  		color: yellow;
+  	}
+
+	a:active {
+ 	 	color: red;
+	}
+
+	
 
 
 
-</style>
-</head>
-<body>
+
