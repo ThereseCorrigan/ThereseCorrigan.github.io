@@ -12,7 +12,7 @@
 		text-align: center;
 	}
 	
-		blockquote {
+		.quote {
 		font-color: #8fbc8f;
 		/*above color is dark sea green*/
 		font-family: serif;
@@ -33,19 +33,19 @@
 		font-color: firebrick red;
 	}
 
-		a.link {
+		a:link {
   		color: blue;
 	}
   	
-		a.visited {
+		a:visited {
 		color: purple;
 	}
 
-		a.hover {
+		a:hover {
   		color: yellow;
   	}
 
-		a.active {
+		a:active {
  	 	color: red;
 	}
 
