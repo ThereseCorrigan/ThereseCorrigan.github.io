@@ -1,0 +1,83 @@
+	body {background-color: #fffdd0;
+		  /*above is an ivory color*/
+		  font-family: sans-serif;} 
+
+	h1 {color: black;
+		font-weight: bold;
+		font-style: normal;
+		font-size: 30px;
+		text-align: center;}
+	
+	h2 {color: blue;
+		font-size: 24px;
+		font-style: italic;}
+
+	section {font-family: sans-serif;
+			 font-size: 14px;}
+
+	.acoustic {background-color: orange;}
+
+	.electric {background-color: aqua;}
+
+	h2 > em {font-color: #ff1493;}
+		    /*above color is deep pink*/
+
+	h3 {color: green;
+		font-size: 18px;
+		font-style: italic;}
+
+	h3 ~ p {color:  blue violet;}
+
+	p {color: purple;
+	   font-size: 14px;}
+
+		.specialtext {color: black;
+					  font-size: 30px;}
+
+		.quote {color: #8fbc8f;
+				/*above color is dark sea green*/
+				font-family: serif;
+				text-align: center;
+				font-style: italic;}
+
+	ul {color: brown;}
+
+	ul li {color: firebrick red;}
+
+		a:link {color: blue;}
+  	
+		a:visited {color: purple;}
+
+		a:hover {color: yellow;}
+
+		a:active {color: red;}
+
+
+
+	
+
+
+
+
+
+	
+
+	.acoustic + p {font-color: purple;}
+
+	.electric {background-color: aqua;}
+
+	.electric + p {font-color: blue violet;}
+
+	h3 > p {font-color: purple;
+			font-size: 14px;}
+
+	
+
+
+	
+
+	
+
+
+
+
