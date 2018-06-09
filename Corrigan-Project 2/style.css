@@ -2,11 +2,7 @@
 		background-color: #fffdd0;
 		/*above is an ivory color*/
 		font-family: sans-serif; 
-		margin-top: 1px;
-		margin-bottom: 1px;
-		margin-right: 75px;
-		margin-left: 75px; 
-		}
+	}
 
 	h1 {
 		color: black;
@@ -14,6 +10,43 @@
 		font-style: normal;
 		font-size: 30px;
 		text-align: center;
+	}
+	
+		blockquote {
+		font-color: #8fbc8f;
+		/*above color is dark sea green*/
+		font-family: serif;
+		text-align: center;
+		font-style: italic;
+	}
+
+		.specialtext {
+		font-color: black;
+		font-size: 30px;
+	}
+
+	ul {
+		font-color: brown;
+	}
+
+	.li {
+		font-color: firebrick red;
+	}
+
+		a.link {
+  		color: blue;
+	}
+  	
+		a.visited {
+		color: purple;
+	}
+
+		a.hover {
+  		color: yellow;
+  	}
+
+		a.active {
+ 	 	color: red;
 	}
 
 	h2 {
@@ -26,7 +59,7 @@
 		font-family: sans-serif;
 	}
 
-	.acoustic {
+	.acoustic  {
 		background-color: orange;
 	}
 
@@ -34,7 +67,7 @@
 		background-color: aqua
 	}
 
-	h2 > em{
+	h2 > em {
 		font-color: #ff1493;
 		/*above color is deep pink*/
 	}
@@ -55,41 +88,10 @@
 
 	}
 
-	p.specialtext {
-		font-color: black;
-		font-size: 30px;
-	}
+	
 
-	blockquote {
-		font-color: #8fbc8f;
-		/*above color is dark sea green*/
-		font-family: serif;
-		text-align: center;
-		font-style: italic;
-	}
 
-	ul {
-		font-color: brown;
-	}
-	li{
-		font-color: firebrick red;
-	}
-
-	a:link {
-  		color: blue;
-	}
-  	
-	a:visited {
-		color: purple;
-	}
-
-	a:hover {
-  		color: yellow;
-  	}
-
-	a:active {
- 	 	color: red;
-	}
+	
 
 	
 
