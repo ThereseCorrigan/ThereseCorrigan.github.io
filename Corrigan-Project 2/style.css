@@ -1,6 +1,6 @@
 	body {background-color: #fffdd0;
-		/*above is an ivory color*/
-		font-family: sans-serif;} 
+		  /*above is an ivory color*/
+		  font-family: sans-serif;} 
 
 	h1 {color: black;
 		font-weight: bold;
@@ -8,20 +8,41 @@
 		font-size: 30px;
 		text-align: center;}
 	
-		.quote {font-color: #8fbc8f;
-			/*above color is dark sea green*/
-			font-family: serif;
-			text-align: center;
-			font-style: italic;}
+	h2 {color: blue;
+		font-size: 24px;
+		font-style: italic;}
 
-		.specialtext {font-color: black;
-			font-size: 30px;}
+	section {font-family: sans-serif;
+			 font-size: 14px;}
 
-	h1 + p {font-color: purple;}
+	.acoustic {background-color: orange;}
 
-	ul {font-color: brown;}
+	.electric {background-color: aqua;}
 
-	li {font-color: firebrick red;}
+	h2 > em {font-color: #ff1493;}
+		    /*above color is deep pink*/
+
+	h3 {color: green;
+		font-size: 18px;
+		font-style: italic;}
+
+	h3 ~ p {color:  blue violet;}
+
+	p {color: purple;
+	   font-size: 14px;}
+
+		.specialtext {color: black;
+					  font-size: 30px;}
+
+		.quote {color: #8fbc8f;
+				/*above color is dark sea green*/
+				font-family: serif;
+				text-align: center;
+				font-style: italic;}
+
+	ul {color: brown;}
+
+	ul li {color: firebrick red;}
 
 		a:link {color: blue;}
   	
@@ -31,21 +52,15 @@
 
 		a:active {color: red;}
 
-	section {font-family: sans-serif;
-			font-size: 14px;}
 
-	h2 {color: blue;
-		font-size: 24px;
-		font-style: italic;}
 
-	h2 > em {font-color: #ff1493;}
-		/*above color is deep pink*/
+	
 
-	h3 {font-color: green;
-		font-size: 18px;
-		font-style: italic;}
 
-	.acoustic {background-color: orange;}
+
+
+
+	
 
 	.acoustic + p {font-color: purple;}
 
