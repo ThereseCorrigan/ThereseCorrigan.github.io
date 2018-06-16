@@ -55,7 +55,7 @@ blockquote {
 	text-align: center;
 }
 
-cite.highlight {
+blockquote.highlight {
 	background-color: yellow;
 }
 
