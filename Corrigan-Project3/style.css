@@ -4,7 +4,7 @@ body {background-color: #fffdd0;
 		  margin: 20px;
 	} 
 
-.box1 {
+	.box1 {
 		border-width: 2px;
 		border-style: dashed;
 		border-color: red;
@@ -13,16 +13,16 @@ body {background-color: #fffdd0;
 
 	.box2 {
 		min-height: 100px;
-		height: 300px
+		width: 300px;
 		border-width: 10px;
-		border-top-style: double;
-		border-top-color: purple;
-		border-right-style: dotted;
-		border-right-color: black;
-		border-bottom-style: groove;
-		border-bottom-color: orange;
 		border-left-style: dashed;
 		border-left-color: red;
+		border-right-style: dotted;
+		border-right-color: black;
+		border-top-style: double;
+		border-top-color: purple;
+		border-bottom-style: groove;
+		border-bottom-color: orange;
 	}
 
 	.padbox {
@@ -35,45 +35,61 @@ body {background-color: #fffdd0;
 		padding-left: 10px;
 	}
 
-	.marginbox{
+	.marginbox {
 		border-style: solid;
 		border-color: blue;
 		border-width: 10px;
+		padding: 0px;
 		margin-top: 20px;
 		margin-right: 100px;
 		margin-bottom: 200px;
 		margin-left: 50px;
 	}
 
+
+	.floatleft {
+		float: left;
+	}
+
+	.floatright {
+		float: right;
+	}
+
+
 	.floatbox1 {
 		border: 2px;
 		border-style: solid;
 		border-color: blue;
-		width: 500px;
 		height: 300px;
+		width: 500px;
 	}
 
-	.floatboxleft {
+	.clear {
+		clear: left;
+	}
+
+	.floatbox2 {
 		border: 2px;
 		border-style: solid;
 		border-color: purple;
-		width: 500px;
 		height: 300px;
+		width: 500px;
 	}
 
-	.floatboxright {
+
+	.floatbox3 {
 		border: 2px;
 		border-style: solid;
 		border-color: orange;
-		width: 500px;
 		height: 300px;
+		width: 500px;
 	}
 
-	.overflow {
+	.floatbox4 {
 		border: 2px;
 		border-style: solid;
 		border-color: green;
-		width: 800px;
 		height: 100px;
+		width: 800px;
 		overflow: hidden;
 	}
