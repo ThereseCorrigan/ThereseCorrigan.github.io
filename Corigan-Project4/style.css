@@ -1,20 +1,28 @@
+@font-face {
+    font-family: 'badaboom_bbregular';
+    src: url('badabb__-webfont.woff2') format('woff2'),
+         url('badabb__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body { 
-	background-color: #fffdd0
+	background-color: #fffdd0;
 	font-family: sans-serif;
 	font-color: 1em;
 }
 
 h1 {
-	font-family: Pangolin;
+	font-family: 'Pangolin', regular;
 	font-size: 1.5em;
 	letter-spacing: 0.5em;
 	text-decoration: underline;
 	text-transform: capitalize;
 }
 
-
 h2 {
-	font-family: Badaboom;
+	font-family: 'badaboom_bbregular';
 	font-size: 1.25em;
 	letter-spacing: 0.2em;
 	text-decoration: overline;
