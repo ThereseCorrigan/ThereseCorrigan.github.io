@@ -1,9 +1,11 @@
 @font-face {
-    font-family: 'font/badaboom_bbregular';
-    src: url('font/badabb__-webfont.woff2') format('woff2'),
-         url('font/badabb__-webfont.woff') format('woff');
+    font-family: 'badaboom_bbregular';
+    src: url('badabb__-webfont.woff2') format('woff2'),
+         url('badabb__-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
+}
 
 }
 
