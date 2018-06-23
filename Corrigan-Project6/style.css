@@ -22,34 +22,6 @@ header h1 {
 	padding:0 0 5px 10px; 
 	}
 
-nav {
-	display:table-cell;
-	width:150px;
-	background:#F5DEB3;
-	padding:10px;
-	}
-
-.list0 ul {
-	border:1px solid #000;
-	border-radius:3px; padding:5px 10px 3px;
-	}
-.list0 li {
-	list-style-type:none;
-	padding:3px 10px;
-	}
-.list0 li + li {
-	border-top:1px solid #000;
-	}
-.list0 a {
-	text-decoration:none;
-	font:20px 'Exo', helvetica, arial, sans-serif;
-	font-weight:400;
-	color:#000;
-	}
-.list0 a:hover {
-	color:#069;
-}
-
 article {
 	display:table-cell;
 	background:#fff;
@@ -81,11 +53,31 @@ article p {
 	color:#000;
 	}
 
+.list0 ul {
+	border:1px solid #000;
+	border-radius:3px; padding:5px 10px 3px;
+	}
+.list0 li {
+	list-style-type:none;
+	padding:3px 10px;
+	}
+.list0 li + li {
+	border-top:1px solid #000;
+	}
+.list0 a {
+	text-decoration:none;
+	font:20px 'Exo', helvetica, arial, sans-serif;
+	font-weight:400;
+	color:#000;
+	}
+.list0 a:hover {
+	color:#069;
+	}
+
 figure {
-	
 	margin:20px 20px;			/* space between boxes */
 	position:relative; /* positioning context for popups */
-}
+	}
 
 img {display:block;}/* remove baseline spacing from under image */
 figcaption {
