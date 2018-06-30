@@ -35,7 +35,7 @@ nav {
 	}
 nav ul {
 	display: inline;
-	text-align: center;
+	text-align: right;
 }
 nav li {
 	list-style-type:none;
