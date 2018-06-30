@@ -27,7 +27,7 @@ header h1 {
 	font-size:4em;
 	letter-spacing:-.05em;
 	display: table-cell;
-	width: 55%;
+	width: 60%;
 	color:#fff;
 	padding: 5px 10px 5px 10px; 
 	}
@@ -38,7 +38,7 @@ nav {
 	display: table-cell;
 	width:40%;
 	background: #000;
-	text-align: right;
+	text-align: right, bottom;
 	padding: 10px 10px 0px 10px;
 	}
 nav ul {
@@ -156,7 +156,7 @@ footer a {
 
 @media only screen and (max-width: 1050px) {
 
-	body{
+	body {
 		margin: 0 8px 20px;
 	}
 	#wrapper {
@@ -185,7 +185,7 @@ stack under each other when on smaller screen*/
 		width: 100%;
 		padding: 0 0 10px 0;
 		text-align: center;
-		border-radius: 0 0 10px 0; 
+		border-radius: 10px; 
 		}
 
 	.mainbody {
