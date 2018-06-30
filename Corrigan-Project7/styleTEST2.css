@@ -36,7 +36,6 @@ header h1 {
 	viedo shows nav text-align to be center and*/
 nav {
 	display: table-cell;
-	position: bottom right;
 	width:40%;
 	background: #000;
 	text-align: right;
@@ -48,7 +47,7 @@ nav ul {
 	}
 nav li {
 	list-style-type:none;
-	display: inline-block;
+	position: bottom right;
 	padding: 10px
 	}
 nav a {
