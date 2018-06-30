@@ -32,8 +32,6 @@ header h1 {
 	padding: 5px 10px 5px 10px; 
 	}
 
-	/*trying to make nav to right and bottom
-	viedo shows nav text-align to be center and*/
 nav {
 	display: table-cell;
 	width:40%;
@@ -212,6 +210,4 @@ stack under each other when on smaller screen*/
 		width: 96.5%;
 		border-radius: 10px;
 	}
-
-
 }
