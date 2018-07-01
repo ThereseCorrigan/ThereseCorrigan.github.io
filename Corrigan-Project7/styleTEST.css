@@ -31,13 +31,15 @@ header h1 {
 	color:#fff;
 	padding: 5px 10px 5px 10px; 
 	}
-
+.menu {
+	vertical-align: bottom;
+}
 nav {
 	display: table-cell;
 	width:40%;
 	background: #000;
 	text-align: right;
-	padding: 0;
+	padding: 10px 10px 0 10px;
 	}
 nav ul {
 	display: inline;
