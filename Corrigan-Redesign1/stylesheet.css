@@ -1,24 +1,12 @@
 *{margin:0px; padding:0px;}
 
 
-body, html {
-    height: 100%;
-}
-
-.bg { 
-    background-image: url("img/DollarSignBackground.jpg;");
-    height: 100%; 
-    background-repeat: no-repeat;
-    background-size: cover;
-	}
-	
 body {
-	background-color: #e0ebeb; 
-	font-family: sans-serif;
+		font-family: sans-serif;
+  	}
 
-/*want body of page to havebackground 
+/*want main text block of page to have background 
 color of #e0ebeb pale green color*/
-		}
 
 #wrapper {
 	min-width: 90%; 
@@ -64,7 +52,7 @@ header h1 {
 }
 
 .topnav a {
-  float: center;
+  float: left;
   color: #f2f2f2; /*color is light gray*/
   text-align: center;
   padding: 15px;
@@ -85,9 +73,10 @@ header h1 {
  
 
  footer { 
-  font-size: 10px;
+  font-size: 16px;
   font-weight: bold;
   font-style: italic;
   text-align: center; 
+  flood-color: black;
 }
   
