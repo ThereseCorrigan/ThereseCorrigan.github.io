@@ -34,26 +34,30 @@ header h1 {
 
 nav {
 	display: table-cell;
+	vertical-align: bottom;
 	width:40%;
 	background: #000;
 	text-align: right;
-	padding: 10px 10px 0px 10px;
+	padding: 10px 10px 0 10px;
 	}
 nav ul {
 	display: inline;
+	vertical-align: bottom;
 	text-align: right;
+
 	}
 nav li {
 	list-style-type:none;
 	display: inline-block;
-	padding: 10px
+	vertical-align: bottom;
+	padding: 10px;
 	}
 nav a {
 	float: right;
 	font-family:'Open Sans Condensed';
 	font-weight:bold;
 	font-size:1em;
-	padding: 10px 10px 0px 10px;
+	padding: 10px 10px 0 10px;
 	color:#fff;
 	}
 
