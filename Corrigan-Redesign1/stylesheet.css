@@ -1,38 +1,61 @@
+*{margin:0px; padding:0px;}
 
-#dollarsigns {
-	height: 30%;
-	background-size: auto;
-	background-position: top;
-	background-repeat: no-repeat;
+
+body, html {
+    height: 100%;
 }
+
+.bg { 
+    background-image: url("img/DollarSignBackground.jpg;");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+	
 body {
-	background-color: white;
+	background-color: #e0ebeb; 
 	font-family: sans-serif;
-	margin: 20px;
+
+/*want body of page to havebackground 
+color of #e0ebeb pale green color*/
+		}
+
+#wrapper {
+	min-width: 97.5%; 
+	margin:0 auto; 
+	overflow:hidden;
 	}
 
-#wrapper{
-	
-}
+header {
+	background:#000;
+	display: table;
+	width: 90%;
+	padding: 20px;
+	margin: 10px;
+	border-radius: 10px;
+	}
 
-header h1{
-
-}
-
-h1 {
+header h1 {
 	font-weight: bold;
 	font-size: 26px;
     text-align: center;
- }
+    display: table-cell;
+	width: 60%;
+	color:#fff;
+	padding: 5px 10px 5px 10px; 
+ 	}
 
  h2{
  	font-weight: bold;
- }
+ 	font-size: 24px;
+ } 
+
  h3{ 
  	font-weight: bold;
+ 	font-size: 22px;
 
   }
-
 
 /*NEED review NAV COLORS*/
 .topnav {
@@ -63,7 +86,7 @@ h1 {
  
 
  footer { 
-  font-size: .5em;
+  font-size: 10em;
   font-weight: bold;
   font-style: italic;
   text-align: center; 
