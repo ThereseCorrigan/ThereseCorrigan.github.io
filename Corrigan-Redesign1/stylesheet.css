@@ -8,7 +8,6 @@ body, html {
 .bg { 
     background-image: url("img/DollarSignBackground.jpg;");
     height: 100%; 
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 	}
@@ -22,13 +21,13 @@ color of #e0ebeb pale green color*/
 		}
 
 #wrapper {
-	min-width: 97.5%; 
-	margin:0 auto; 
+	min-width: 90%; 
+	margin: 10px auto; 
 	overflow:hidden;
 	}
 
 header {
-	background:#000;
+	background:#ffffb3;
 	display: table;
 	width: 90%;
 	padding: 20px;
@@ -38,12 +37,12 @@ header {
 
 header h1 {
 	font-weight: bold;
-	font-size: 26px;
-    text-align: center;
-    display: table-cell;
-	width: 60%;
-	color:#fff;
-	padding: 5px 10px 5px 10px; 
+	font-size: 35px;
+  text-align: center;
+  display: table-cell;
+	width: 50%;
+	color: #000;
+	padding: 20px; 
  	}
 
  h2{
@@ -65,13 +64,13 @@ header h1 {
 }
 
 .topnav a {
-  float: left;
+  float: center;
   color: #f2f2f2; /*color is light gray*/
   text-align: center;
-  padding-left: 15px;
-  padding-right: 16px;
+  padding: 15px;
+  width: 90% 
   text-decoration: none;
-  font-size: 35px;
+  font-size: 24px;
 }
 
 .topnav a.hover {
@@ -86,7 +85,7 @@ header h1 {
  
 
  footer { 
-  font-size: 10em;
+  font-size: 10px;
   font-weight: bold;
   font-style: italic;
   text-align: center; 
