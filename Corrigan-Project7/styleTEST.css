@@ -31,11 +31,10 @@ header h1 {
 	color:#fff;
 	padding: 5px 10px 5px 10px; 
 	}
-.menu {
-	vertical-align: bottom;
-}
+
 nav {
 	display: table-cell;
+	vertical-align: bottom;
 	width:40%;
 	background: #000;
 	text-align: right;
@@ -43,7 +42,9 @@ nav {
 	}
 nav ul {
 	display: inline;
+	vertical-align: bottom;
 	text-align: right;
+
 	}
 nav li {
 	list-style-type:none;
