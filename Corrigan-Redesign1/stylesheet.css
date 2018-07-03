@@ -38,33 +38,38 @@ header h1 {
  	}
 
   /*NEED review NAV COLORS*/
-.topnav {
-  display: block;
+ul {
+  list-style-type: none; 
   float: left;
-  width: 80%;
+  margin: 20;
+  padding:45;
+  width: 90%;
   overflow: hidden;
   background-color: #333333; /*color is charcoal-black*/
-  border-radius: 10px;
+  border-radius: 15px;
   }
 
-.topnav a {
-  display: block; 
+li {
+  float: left
+  }
+
+li a {
+  display: inline-block; 
   color: #f2f2f2; /*color is light gray*/
   text-align: center;
-  width: 80%;
   padding: 20px;
   font-size: 20px;
   text-decoration: none;
   }
 
-.topnav a.hover {
+li a.hover {
   background-color: #dddddd; /*color is med gray*/
   color: black;
   }
 
 /*MAKE sure change each page to 
 class="active" so will change colr*/
-.topnav a.active {
+.active {
   background-color: #228B22; /*color is a forest green*/
   color: white;
   }
@@ -95,6 +100,7 @@ aside{
 h1{
   font-weight: bold;
   font-size: 28px;
+  word-spacing: .2em;
 }
 
  h2{
