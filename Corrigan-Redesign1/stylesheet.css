@@ -39,9 +39,9 @@ header h1 {
 
   /*NEED review NAV COLORS*/
 .topnav {
-  display: table-cell;
-  vertical-align: left;
-  width: 90%;
+  display: block;
+  float: left;
+  width: 80%;
   overflow: hidden;
   background-color: #333333; /*color is charcoal-black*/
   border-radius: 10px;
@@ -49,11 +49,10 @@ header h1 {
 
 .topnav a {
   display: block; 
-  float: left;
   color: #f2f2f2; /*color is light gray*/
   text-align: center;
+  width: 80%;
   padding: 20px;
-  width: 50%;
   font-size: 20px;
   text-decoration: none;
   }
@@ -79,7 +78,7 @@ article {
    display: table-cell;
    padding: 15px;
    width: 40%;
-   border-radius: 10px;
+   border-radius: 15px 0 0 15px;
    margin-bottom: 10px;
    background-color: #B4EEB4; /*color is a mint green*/
    }
@@ -88,7 +87,7 @@ aside{
     display: table-cell;
     padding: 15px;
     width: 30%;
-    border-radius: 10px;
+    border-radius: 0 15px 15px 0px;
     margin-bottom: 10px;
     background-color: #B4EEB4; /*color is a mint green*/
    }
@@ -113,7 +112,17 @@ img{
   }
 
  
- footer { 
+footer {
+   clear:both;
+   padding: 15px;
+   width: 90%;
+   text-align: center; 
+   border-radius: 15px;
+   margin-bottom: 10px;
+   background-color: #B4EEB4; /*color is a mint green*/
+  }
+
+ footer p { 
   font-size: 20px;
   font-weight: bold;
   font-style: italic;
@@ -121,6 +130,8 @@ img{
   flood-color: black;
   }
   
+
+
 
 /* Responsive layout - when the screen is less than 1959px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 1050px) {
