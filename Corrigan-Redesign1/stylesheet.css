@@ -6,6 +6,7 @@ body {
     background-position: top, left, bottom, right;
     font-family: 'Markazi Text', serif;
     font-family: 'Lora', serif;
+    padding: 15px;
   	}
 
 /*want main text block of page to have background 
@@ -15,14 +16,13 @@ color of #e0ebeb pale green color*/
 	min-width: 90%; 
 	margin:0 0 20px 20px;
   padding: 20px;
-  border: 2px solid green;
-	overflow:hidden;
+  overflow:hidden;
 	}
 
 header {
 	background:#ffffb3; /*color pale yellow*/
 	display: table;
-  text-align: center;
+  position: center;
 	width: 90%;
 	padding: 30px;
 	border-radius: 10px;
@@ -39,8 +39,12 @@ header h1 {
 
   /*NEED review NAV COLORS*/
 .topnav {
+  display: table-cell;
+  vertical-align: left;
+  width: 90%;
   overflow: hidden;
   background-color: #333333; /*color is charcoal-black*/
+  border-radius: 10px;
   }
 
 .topnav a {
@@ -61,30 +65,32 @@ header h1 {
 
 /*MAKE sure change each page to 
 class="active" so will change colr*/
-nav a.active {
+.topnav a.active {
   background-color: #228B22; /*color is a forest green*/
   color: white;
   }
 
 .mainbody {
-    width: 90%;
-    background-clip: border-box;
+  display: table;
+  width: 90%;
     }
 
 article {
-   display: block;
-   padding: 10px;
-   width: 50%;
+   display: table-cell;
+   padding: 15px;
+   width: 40%;
    border-radius: 10px;
    margin-bottom: 10px;
    background-color: #B4EEB4; /*color is a mint green*/
-  }
+   }
 
 aside{
-    display: block;
-    padding: 10px;
-    width: 40%;
+    display: table-cell;
+    padding: 15px;
+    width: 30%;
     border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #B4EEB4; /*color is a mint green*/
    }
 
 h1{
