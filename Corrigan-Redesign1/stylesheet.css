@@ -4,47 +4,45 @@ body {
     background-position: top, left, bottom, right;
     font-family: 'Markazi Text', serif;
     font-family: 'Lora', serif;
-    padding: 15px;
-   	}
+    }
 
 /*want main text block of page to have background 
 color of #e0ebeb pale green color*/
 
-#wrapper {
-	min-width: 80%; 
-	margin:0 0 20px 20px;
-  padding: 20px;
-  overflow:hidden;
-	}
-
 header {
 	background:#ffffb3; /*color pale yellow*/
-	display: table;
-  margin: auto;
+	margin: auto;
 	width: 90%;
-	padding: 30px;
+	padding: 20px;
 	border-radius: 15px;
 	}
 
 header h1 {
 	font-weight: bold;
-	font-size: 35px;
+	font-size: 40px;
   text-align: center;
   width: 90%;
 	color: #000;
-	padding: 30px; 
+	padding: 15px; 
  	}
 
   /*NEED review NAV COLORS*/
+  nav {
+     width: 95%;
+     margin: auto;
+     border-radius: 15px 15px 15px 15px;
+  }
+
+
 ul {
+  background-color: #333333; /*color is charcoal-black*/
   list-style-type: none; 
   float: left;
-  margin: auto;
-  padding:30;
-  width: 90%;
+  margin: 2px 45px 0 45px;
+  width: 95%;
+  padding:15px;
   overflow: hidden;
-  background-color: #333333; /*color is charcoal-black*/
-  border-radius: 15px;
+ 
   }
 
 li {
@@ -55,7 +53,8 @@ li a {
   display: inline-block; 
   color: #f2f2f2; /*color is light gray*/
   text-align: center;
-  padding: 30px;
+  padding: 15px;
+  font-weight: bold;
   font-size: 20px;
   text-decoration: none;
   }
@@ -73,66 +72,58 @@ class="active" so will change colr*/
   font-style: 700;
   }
 
-.mainbody {
-  display: table;
-  width: 90%;
-    }
-
-
-.info {
-    background-color: #B4EEB4; /*color is a mint green*/
-    overflow: auto;
-    padding: 15px;
-    width: 25%;
-    border-radius: 15px;
-    margin-bottom: 10px;
-    
-   }
-
-article {
-   display: table-cell;
+ main { 
    padding: 15px;
-   width: 40%;
-   border-radius: 15px; 
-   margin-bottom: 5px;
+   width: 90%;
+   margin: auto;
+   border-radius: 15px 15px 15px 15px;
    background-color: #B4EEB4; /*color is a mint green*/
    }
 
-
-h1 { 
+main h1 { 
   font-weight: bold;
-  font-size: 28px;
-  word-spacing: .2em;
+  font-size: 30px;
+  margin: 10px 0 10px 0;
   }
 
- h2{
+ main h2{
  	font-weight: bold;
- 	font-size: 26px;
+ 	font-size: 24px;
+  white-space: -.5em;
+
   } 
 
 #hand{
   float; left;
-  margin: 5px
+  padding: 15px;
+  margin: 0 55px 0 0;
   }
 
- h3{ 
+ main h3{ 
  	font-weight: bold;
- 	font-size: 24px;
+ 	font-size: 20px;
+  white-space: -
+  padding-right: 15px;
   }
 
- 
-footer {
+main p {
+  text-indent: 5px;
+  padding: 0 0 20px 0;
+  }
+
+ footer {
    clear:both;
-   padding: 30px;
+   padding: 20px;
    width: 90%;
+   margin: auto;
    text-align: center; 
    border-radius: 15px;
-   margin-bottom: 10px;
+   margin: auto;
    background-color: #B4EEB4; /*color is a mint green*/
   }
 
  footer p { 
-  font-size: 10px;
+  font-size: 12px;
   font-weight: bold;
   font-style: italic;
   text-align: center; 
