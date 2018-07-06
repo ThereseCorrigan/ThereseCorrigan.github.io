@@ -1,0 +1,167 @@
+
+body {
+    background-image: url("https://hargisa.neocities.org/Sample3-Business/img/DollarSignBackground.jpg")
+    background-position: top, left, bottom, right;
+    font-family: 'Markazi Text', serif;
+    font-family: 'Lora', serif;
+    }
+
+/*want main text block of page to have background 
+color of #e0ebeb pale green color*/
+
+header {
+	background:#ffffb3; /*color pale yellow*/
+	margin: auto;
+	width: 90%;
+	padding: 20px;
+	border-radius: 15px;
+	}
+
+header h1 {
+	font-weight: bold;
+	font-size: 40px;
+  text-align: center;
+  width: 90%;
+	color: #000;
+	padding: 15px; 
+ 	}
+
+  /*NEED review NAV COLORS*/
+  nav {
+     width: 95%;
+     margin: auto;
+     border-radius: 15px 15px 15px 15px;
+  }
+
+
+ul {
+  background-color: #333333; /*color is charcoal-black*/
+  list-style-type: none; 
+  float: left;
+  margin: 2px 45px 0 40px;
+  width: 95%;
+  padding:15px;
+  overflow: hidden;
+  }
+
+li {
+  float: left
+  }
+
+li a {
+  display: inline-block; 
+  color: #f2f2f2; /*color is light gray*/
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  }
+
+a.hover {
+  background-color: #dddddd; /*color is med gray*/
+  color: black;
+  }
+
+/*MAKE sure change each page to 
+class="active" so will change colr*/
+.active {
+  background-color: #228B22; /*color is a forest green*/
+  color: white;
+  font-style: 700;
+  }
+
+ main { 
+   padding: 15px;
+   width: 90%;
+   margin: auto;
+   border-radius: 15px 15px 15px 15px;
+   background-color: #B4EEB4; /*color is a mint green*/
+   }
+
+main h1 { 
+  font-weight: bold;
+  font-size: 30px;
+  margin: 20px 0 10px 0;
+  }
+
+ main h2{
+ 	font-weight: bold;
+ 	font-size: 24px;
+  white-space: -1px;
+
+  } 
+
+#hand{
+  float; left;
+  padding: 15px;
+  margin: 0 55px 0 0;
+  }
+
+ main h3{ 
+ 	font-weight: bold;
+ 	font-size: 20px;
+  white-space: -
+  padding-right: 15px;
+  }
+
+main p {
+  text-indent: 5px;
+  padding: 0 0 20px 0;
+  }
+
+
+article { 
+  display:table-cell;
+  width: 60%;
+  background:#B4EEB4; /*color is a mint green*/
+  padding:10px 20px;
+  border-radius: 15px 0 0 15px;  
+  }
+
+aside{
+  display:table-cell;
+  width:40%;
+  background:#B4EEB4; /*color is a mint green*/
+  border-radius: 0 15px 15px 0px;
+  padding:20px;
+}
+
+aside h1 {
+  font-weight: bold;
+  font-size: 30px;
+  margin: 20px 0 10px 0;
+}
+
+aside p {
+  text-indent: 5px;
+  padding: 0 0 20px 0;
+}
+
+
+ footer {
+   clear:both;
+   padding: 20px;
+   width: 90%;
+   margin: auto;
+   text-align: center; 
+   border-radius: 15px;
+   margin: auto;
+   background-color: #B4EEB4; /*color is a mint green*/
+  }
+
+ footer p { 
+  font-size: 12px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center; 
+  flood-color: black;
+  }
+  
+
+
+
+/* Responsive layout - when the screen is less than 1959px wide, make the two columns stack on top of each other instead of next to each other */
+@media only screen and (max-width: 1050px) {}
+    
+
