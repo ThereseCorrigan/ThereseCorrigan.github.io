@@ -1,5 +1,3 @@
-*{margin:0px; padding:0px;}
-
 
 body {
     background-image: url("https://hargisa.neocities.org/Sample3-Business/img/DollarSignBackground.jpg")
@@ -7,13 +5,13 @@ body {
     font-family: 'Markazi Text', serif;
     font-family: 'Lora', serif;
     padding: 15px;
-  	}
+   	}
 
 /*want main text block of page to have background 
 color of #e0ebeb pale green color*/
 
 #wrapper {
-	min-width: 90%; 
+	min-width: 80%; 
 	margin:0 0 20px 20px;
   padding: 20px;
   overflow:hidden;
@@ -22,27 +20,27 @@ color of #e0ebeb pale green color*/
 header {
 	background:#ffffb3; /*color pale yellow*/
 	display: table;
-  position: center;
+  margin: auto;
 	width: 90%;
 	padding: 30px;
-	border-radius: 10px;
+	border-radius: 15px;
 	}
 
 header h1 {
 	font-weight: bold;
 	font-size: 35px;
   text-align: center;
-  width: 50%;
+  width: 90%;
 	color: #000;
-	padding: 20px; 
+	padding: 30px; 
  	}
 
   /*NEED review NAV COLORS*/
 ul {
   list-style-type: none; 
   float: left;
-  margin: 20;
-  padding:45;
+  margin: auto;
+  padding:30;
   width: 90%;
   overflow: hidden;
   background-color: #333333; /*color is charcoal-black*/
@@ -57,12 +55,12 @@ li a {
   display: inline-block; 
   color: #f2f2f2; /*color is light gray*/
   text-align: center;
-  padding: 20px;
+  padding: 30px;
   font-size: 20px;
   text-decoration: none;
   }
 
-li a.hover {
+a.hover {
   background-color: #dddddd; /*color is med gray*/
   color: black;
   }
@@ -72,6 +70,7 @@ class="active" so will change colr*/
 .active {
   background-color: #228B22; /*color is a forest green*/
   color: white;
+  font-style: 700;
   }
 
 .mainbody {
@@ -79,37 +78,41 @@ class="active" so will change colr*/
   width: 90%;
     }
 
+
+.info {
+    background-color: #B4EEB4; /*color is a mint green*/
+    overflow: auto;
+    padding: 15px;
+    width: 25%;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    
+   }
+
 article {
    display: table-cell;
    padding: 15px;
    width: 40%;
-   border-radius: 15px 0 0 15px;
-   margin-bottom: 10px;
+   border-radius: 15px; 
+   margin-bottom: 5px;
    background-color: #B4EEB4; /*color is a mint green*/
    }
 
-aside{
-    display: table-cell;
-    padding: 15px;
-    width: 30%;
-    border-radius: 0 15px 15px 0px;
-    margin-bottom: 10px;
-    background-color: #B4EEB4; /*color is a mint green*/
-   }
 
-h1{
+h1 { 
   font-weight: bold;
   font-size: 28px;
   word-spacing: .2em;
-}
+  }
 
  h2{
  	font-weight: bold;
  	font-size: 26px;
   } 
 
-img{
-  float; right;
+#hand{
+  float; left;
+  margin: 5px
   }
 
  h3{ 
@@ -120,7 +123,7 @@ img{
  
 footer {
    clear:both;
-   padding: 15px;
+   padding: 30px;
    width: 90%;
    text-align: center; 
    border-radius: 15px;
@@ -129,7 +132,7 @@ footer {
   }
 
  footer p { 
-  font-size: 20px;
+  font-size: 10px;
   font-weight: bold;
   font-style: italic;
   text-align: center; 
@@ -140,7 +143,7 @@ footer {
 
 
 /* Responsive layout - when the screen is less than 1959px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 1050px) {
+@media only screen and (max-width: 1050px) {
     
 
     /*NOTE at present do not have columns so keep or remove*/
@@ -151,9 +154,23 @@ footer {
   }
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
+@media only screen and (max-width: 400px) {
+  
+body { 
+    margin: 0 18px 15px;
+    background-color: #B4EEB4; /*color is a mint green*/
+    border: 15px #228B22; /*color is a forest green*/
+    padding: 25px;
+   
+ }
+
+
+
     .topnav a {
         float: none;
         width: 100%;
     }
+
+
+
 }
