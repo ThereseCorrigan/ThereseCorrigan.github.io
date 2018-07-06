@@ -4,12 +4,10 @@ body {
     background-position: top, left, bottom, right;
     font-family: 'Markazi Text', serif;
     font-family: 'Lora', serif;
-    padding: 15px;
-   	}
+    }
 
 /*want main text block of page to have background 
 color of #e0ebeb pale green color*/
-
 
 header {
 	background:#ffffb3; /*color pale yellow*/
@@ -30,13 +28,13 @@ header h1 {
 
   /*NEED review NAV COLORS*/
 ul {
+  background-color: #333333; /*color is charcoal-black*/
   list-style-type: none; 
   float: left;
-  margin: auto;
-  padding:20;
+  margin: 55px;
   width: 90%;
+  padding:15px;
   overflow: hidden;
-  background-color: #333333; /*color is charcoal-black*/
   border-radius: 15px;
   }
 
@@ -48,7 +46,7 @@ li a {
   display: inline-block; 
   color: #f2f2f2; /*color is light gray*/
   text-align: center;
-  padding: 30px;
+  padding: 15px;
   font-size: 20px;
   text-decoration: none;
   }
@@ -66,46 +64,49 @@ class="active" so will change colr*/
   font-style: 700;
   }
 
-.info1 {
-    display: table-row;
-    background-color: #B4EEB4; /*color is a mint green*/
-    margin: auto;
-    width: 90%;
-    padding: 20px;
-    border-radius: 15px;
-    }
-
 article {
-   display: table-row;
+  display: table-cell;
    padding: 20px;
-   width: 90%;
-   margin:auto;
-   border-radius: 15px; 
+   width: 70%;
+   margin: 55px;
+   border-radius: 15px;
    background-color: #B4EEB4; /*color is a mint green*/
    }
 
 
-h1 { 
+
+
+article h1 { 
   font-weight: bold;
   font-size: 28px;
   word-spacing: .2em;
+  padding: 20px;
   }
 
- h2{
+ article h2{
  	font-weight: bold;
- 	font-size: 26px;
+ 	font-size: 24px;
+  padding: 20px;
+  white-space: -.5em
   } 
 
 #hand{
   float; left;
-  margin: 30px
+  padding: 15px;
+  margin: 55px
   }
 
- h3{ 
+ article h3{ 
  	font-weight: bold;
- 	font-size: 24px;
-  }
+ 	font-size: 20px;
+  padding: 20px;
+    }
 
+article p {
+  padding: 20px;
+  text-indent: 5px;
+  white-space: -.5em;
+  }
  
 footer {
    clear:both;
