@@ -64,48 +64,44 @@ class="active" so will change colr*/
   font-style: 700;
   }
 
-article {
-  display: table-cell;
-   padding: 20px;
-   width: 70%;
-   margin: 55px;
-   border-radius: 15px;
+ main { 
+   padding: 15em;
+   width: 60%;
+   border-radius: 5px 15px;
    background-color: #B4EEB4; /*color is a mint green*/
    }
 
-
-
-
-article h1 { 
+main h1 { 
   font-weight: bold;
   font-size: 28px;
-  word-spacing: .2em;
-  padding: 20px;
+  white-space: 1em;
   }
 
- article h2{
+ main h2{
  	font-weight: bold;
  	font-size: 24px;
-  padding: 20px;
-  white-space: -.5em
+  padding: 0 20px;
+  white-space: -.5em;
   } 
 
 #hand{
   float; left;
-  padding: 15px;
-  margin: 55px
+  padding: 10px;
+  margin: 0 55px 0 0;
   }
 
- article h3{ 
+ main h3{ 
  	font-weight: bold;
  	font-size: 20px;
-  padding: 20px;
-    }
+  }
 
-article p {
-  padding: 20px;
-  text-indent: 5px;
-  white-space: -.5em;
+main p {
+  text-indent: 20em;
+  white-space: 1px;
+  }
+
+  main a {
+   text-indent: 20em; 
   }
  
 footer {
