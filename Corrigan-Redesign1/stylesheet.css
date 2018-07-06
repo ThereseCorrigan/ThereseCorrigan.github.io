@@ -83,13 +83,13 @@ class="active" so will change colr*/
 main h1 { 
   font-weight: bold;
   font-size: 30px;
-  margin: 10px 0 10px 0;
+  margin: 20px 0 10px 0;
   }
 
  main h2{
  	font-weight: bold;
  	font-size: 24px;
-  white-space: -.5em;
+  white-space: -1px;
 
   } 
 
