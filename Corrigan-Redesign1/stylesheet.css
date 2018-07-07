@@ -59,7 +59,7 @@ li a {
   text-decoration: none;
   }
 
-  a.hover {
+  .hover {
   background-color: #b4b4b4; /*color is light gray*/
   color: black;
   }
