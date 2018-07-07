@@ -83,35 +83,51 @@ class="active" so will change colr*/
 
 main h1 { 
   font-weight: bold;
-  font-size: 30px;
+  font-size: 35px;
   padding: 25px 15px 0 15px;
   margin: 15px 15px 15px 15px;
   }
 
- main h2{
+ main h2 {
  	font-weight: bold;
- 	font-size: 24px;
+ 	font-size: 30px;
   } 
+
+  main h3 { 
+  font-weight: bold;
+  font-size: 28px; 
+  }
+
+  main p { 
+  padding: 15px;
+  margin: 0 55px 0 0;
+  }
 
 #hand {
   padding: 15px;
   margin: 0 55px 0 10px;
   }
 
- .member h3 { 
- 	font-weight: bold;
- 	font-size: 20px;
+#lady{
   padding: 15px;
-  margin: 0 55px 0 0;
-  }
+  margin: 0 55px 0 10px;
+}
 
-.member main p {
+#planning{
   padding: 15px;
-  margin: 0 55px 0 0;
-  }
+  margin: 0 55px 0 10px;
+}
 
-blockquote {
+#chasing{ 
+  padding: 15px;
+  margin: 0 55px 0 10px;
+ }
+
+#quote {
   padding: 20px 20px 20px 20px;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 24px;
 }
 
  footer {
