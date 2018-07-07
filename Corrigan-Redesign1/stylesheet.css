@@ -129,10 +129,21 @@ main h1 {
   padding: 15px 15px 15px 15px;
   margin: 0 55px 0 0;
   }
-
   
 blockquote {
   padding: 20px 20px 20px 20px;
+ }
+
+.resources h2 {
+  font-weight: bold;
+  font-size: 24px;
+  padding: 15px 15px 0 15px;
+  margin: 0 55px 0 0;
+}
+
+.resources p {
+  padding: 15px 15px 15px 15px;
+  margin: 0 55px 0 0;
 }
 
 footer {
