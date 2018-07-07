@@ -59,9 +59,10 @@ li a {
   text-decoration: none;
   }
 
-  .hover {
-  background-color: #b4b4b4; /*color is light gray*/
+  a:hover {
+  background-color: #dddddd; /*color is pale gray*/
   color: black;
+
   }
 
 /*MAKE sure change each page to 
@@ -69,7 +70,6 @@ class="active" so will change colr*/
 .active {
   background-color: #228B22; /*color is a forest green*/
   color: white;
-  font-weight: 700;
   }
 
  main { 
@@ -135,7 +135,7 @@ blockquote {
   padding: 20px 20px 20px 20px;
 }
 
- footer {
+footer {
    clear:both;
    padding: 20px;
    width: 90%;
