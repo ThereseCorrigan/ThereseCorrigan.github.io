@@ -83,7 +83,8 @@ class="active" so will change colr*/
 main h1 { 
   font-weight: bold;
   font-size: 30px;
-  margin: 20px 0 10px 0;
+  padding: 25px 15px 0 15px;
+  margin: 15px 15px 15px 15px;
   }
 
  main h2{
@@ -103,12 +104,14 @@ main h1 {
  	font-weight: bold;
  	font-size: 20px;
   white-space: -1px;
-  padding-right: 15px;
+  padding: 15px;
+  margin: 0 55px 0 0;
   }
 
 main p {
-  text-indent: 8px;
-  padding: 0 0 20px 0;
+  padding: 25px 0 25px 0;
+
+
   }
 
  footer {
