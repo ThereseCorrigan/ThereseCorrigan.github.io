@@ -12,36 +12,34 @@ color of #e0ebeb pale green color*/
 header {
 	background:#ffffb3; /*color pale yellow*/
 	margin: auto;
-	width: 75%;
+	width: 90%;
 	padding: 10px;
-  margin: auto;
-	border-radius:15px;
+  border-radius: 15px;
 	}
 
 header h1 {
 	font-weight: bold;
-	font-size: 30px;
+	font-size: 35px;
   text-align: center;
   color: #000; /*color black*/
-  width: 75%;
-	padding: 10px; 
+  width: 90%;
+  padding: 10px; 
  	}
 
-header p {
+header h2 {
+  font-weight: bold;
+  font-size: 24px;
   text-align: center;
-  font-size: 28px;
   color: #000; /*color black*/
-  width: 75%;
-  margin: auto
-  padding: 10px;
-}
+  padding: 10px; 
+  }
 
 
 
 footer {
    clear:both;
    padding: 10px;
-   width: 89%;
+   width: 90%;
    margin: auto;
    text-align: center; 
    border-radius: 10px;
