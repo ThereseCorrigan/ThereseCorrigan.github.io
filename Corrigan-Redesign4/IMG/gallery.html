@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"
+ name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" type="text/css" href="https://ThereseCorrigan.github.io/Corrigan-Redesign3/stylesheet.css">
+
+<link href="https://fonts.googleapis.com/css?family=Lora|Markazi+Text" rel="stylesheet">
+
+<title>Gallery</title>
+
+</style>
+
+<script>
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+</head>
+<body> 
+
+<header>
+    <h1><em>Welcome to Financial Services, LLC<em></h1>
+ </header>
+
+   <nav>
+          <ul>
+            <li><a href="https://ThereseCorrigan.github.io/Corrigan-Redesign1/index.html">Home</a></li>
+            <li><a href="https://ThereseCorrigan.github.io/Corrigan-Redesign1/services.html">Services</a></li>
+            <li><a href="https://ThereseCorrigan.github.io/Corrigan-Redesign1/education.html">Education Resources</a></li>
+            <li><a href="https://ThereseCorrigan.github.io/Corrigan-Redesign1/aboutus.html">About Us</a></li>
+            <li><a class="active" href="https://#">Gallery</a></li>
+         </ul>
+        </nav>
+
+<h2 style="text-align:center">Lightbox</h2>
+<!-- Images used to open the lightbox -->
+<div class="row">
+  <div class="column">
+    <img src="01.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="02.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="03.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="04.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="05.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="01.jpg" width="600" height="400">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="02.jpg" width="480" height="319">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="03.jpg" width="425" height="282">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="04.jpg" width="750"height="442">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="05.jpg" width="600" height="300">
+    </div>
+    
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+<!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+<!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="demo cursor" src="01.jpg" style="width:100%" onclick="currentSlide(1)" alt="Couple talking with financial advisor">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="02.jpg" style="width:100%" onclick="currentSlide(2)" alt="Two women speaking with financial advisor">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="03.jpg" style="width:100%" onclick="currentSlide(3)" alt="Asisan couple speaking with Asisan advisor">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="04.jpg" style="width:100%" onclick="currentSlide(4)" alt="Office workers discussing projecy with client">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="05.jpg" style="width:100%" onclick="currentSlide(4)" alt="Office workers working on a project">
+    </div>
+  </div>
+</div>
+
+
+<footer>
+<p>Last Updated by Therese Corrigan on 7 July 2018</p>
+</footer>
+
+</body>
+</html>
