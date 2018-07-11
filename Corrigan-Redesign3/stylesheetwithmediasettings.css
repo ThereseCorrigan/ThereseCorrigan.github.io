@@ -1,0 +1,211 @@
+
+body {
+    background-color: #006600;
+    background-position: top, left, bottom, right;
+    font-family: 'Markazi Text', serif;
+    font-family: 'Lora', serif;
+    }
+
+/*want main text block of page to have background 
+color of #e0ebeb pale green color*/
+
+header {
+	background:#ffffb3; /*color pale yellow*/
+	width: 90%;
+	padding: 20px;
+  margin: 10px; 
+	border-radius: 15px;
+	}
+
+header h1 {
+	font-weight: bold;
+	font-size: 40px;
+  text-align: center;
+  width: 90%;
+	color: #000;
+	padding: 15px; 
+ 	}
+
+  /*NEED review NAV COLORS*/
+  nav {
+     width: 90%;
+     margin: 10px;
+     border-radius: 15px 15px 15px 15px;
+  }
+
+
+ul {
+  background-color: #333333; /*color is charcoal-black*/
+  list-style-type: none; 
+  float: left;
+  margin: 2px 45px 0 40px;
+  width: 90%;
+  padding:15px;
+  border-radius: 15px 15px 15px 15px;
+  overflow: hidden;
+  }
+
+li {
+  float: left;
+  }
+
+li a {
+  display: inline-block; 
+  color: #f2f2f2; /*color is gray*/
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  }
+
+  a:hover {
+  background-color: #dddddd; /*color is pale gray*/
+  color: black;
+
+  }
+
+/*MAKE sure change each page to 
+class="active" so will change colr*/
+.active {
+  background-color: #228B22; /*color is a forest green*/
+  color: white;
+  }
+
+ main { 
+   padding: 15px;
+   width: 90%;
+   margin: 10px;
+   overflow: hidden;
+   border-radius: 15px 15px 15px 15px;
+   background-color: #B4EEB4; /*color is a mint green*/
+   }
+
+main h1 { 
+  font-weight: bold;
+  font-size: 35px;
+  padding: 25px 15px 0 15px;
+  margin: 15px 15px 15px 15px;
+  }
+
+ main h2 {
+ 	font-weight: bold;
+ 	font-size: 28px;
+  } 
+
+  main h3 { 
+  font-weight: bold;
+  font-size: 24px; 
+  }
+
+#hand {
+  padding: 15px;
+  margin: 0 55px 0 10px;
+  }
+
+#lady{
+  padding: 15px;
+  margin: 0 55px 0 10px;
+}
+
+#planning{
+  padding: 15px;
+  margin: 0 55px 0 10px;
+}
+
+#chasing{ 
+  padding: 15px;
+  margin: 0 55px 0 10px;
+ }
+
+ .member h3 { 
+ 	font-weight: bold;
+ 	font-size: 24px;
+  padding: 15px 15px 0 15px;
+  margin: 0 55px 0 0;
+  }
+
+.member main p {
+  padding: 15px 15px 15px 15px;
+  margin: 0 55px 0 0;
+  }
+  
+blockquote {
+  padding: 20px 20px 20px 20px;
+ }
+
+.resources h2 {
+  font-weight: bold;
+  font-size: 24px;
+  padding: 15px 15px 0 15px;
+  margin: 0 55px 0 0;
+}
+
+.resources p {
+  padding: 15px 15px 15px 15px;
+  margin: 0 55px 0 0;
+}
+
+footer {
+   clear:both;
+   padding: 20px;
+   width: 90%;
+   margin: 10px;
+   text-align: center; 
+   border-radius: 15px;
+   margin: auto;
+   background-color: #B4EEB4; /*color is a mint green*/
+  }
+
+ footer p { 
+  font-size: 12px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center; 
+  flood-color: black;
+  }
+  
+
+
+
+/* Responsive layout - when the screen is less than 1959px wide, make the two columns stack on top of each other instead of next to each other */
+@media only screen and (max-width: 1050px) {
+  body {
+    margin: 0 8px 20px;
+   }
+/*placed header and nav as blocks so will 
+stack under each other when on smaller screen*/ 
+  header {
+    padding: 1px 0 0 0;
+    }
+
+  header h1 {
+    float: none;
+    font-size: 2em;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    }
+
+  nav {
+    display: block;
+    width: 100%;
+    padding: 0 0 10px 0;
+    text-align: center;
+    border-radius: 10px; 
+    }
+
+  main {
+    width: 95%;
+    }
+
+  footer {
+    display: block;
+    width: 96.5%;
+    border-radius: 10px;
+    }
+
+}
+    
+
