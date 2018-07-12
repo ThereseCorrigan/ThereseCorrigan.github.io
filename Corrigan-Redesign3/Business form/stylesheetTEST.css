@@ -76,18 +76,9 @@ header h2 {
   font-size: 20px;
   text-align: center;
   color: #000; /*color black*/
-  padding: 20px;
+  padding: 20px 20px;
   margin: 15px auto;
   }
-
-form {
-  padding: 15px;
-  width: 90%;
-  margin: 10px auto;
-  overflow: hidden;
-  border-radius: 15px 15px 15px 15px;
-  background-color: #B4EEB4; /*color is a mint green*/
-}
 
 footer {
    clear:both;
