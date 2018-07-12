@@ -74,10 +74,9 @@ class="active" so will change colr*/
 header h2 {
   font-weight: bold;
   font-size: 20px;
-  text-align: center;
   color: #000; /*color black*/
-  padding: 20px;
-  margin: 15px; 
+  padding: 20px 20px;
+  margin: 15px auto;
   }
 
 footer {
