@@ -28,8 +28,8 @@ header h1 {
 
   /*NEED review NAV COLORS*/
 nav {
-  width: 90%;
-  margin: 10px;
+  width: 98%;
+  margin: 10px auto;
   padding:15px;
   border-radius: 15px 15px 15px 15px;
   }
@@ -39,8 +39,8 @@ ul {
   background-color: #333333; /*color is charcoal-black*/
   list-style-type: none; 
   float: left;
-  margin: 10px;
-  width: 90%;
+  margin: 10px auto;
+  width: 98%;
   padding:15px;
   border-radius: 15px 15px 15px 15px;
   overflow: hidden;
