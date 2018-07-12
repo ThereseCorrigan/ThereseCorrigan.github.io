@@ -11,7 +11,7 @@ color of #e0ebeb pale green color*/
 
 header {
   background:#ffffb3; /*color pale yellow*/
-  width: 85%;
+  width: 90%;
   padding: 20px;
   margin: 10px auto; 
   border-radius: 15px;
@@ -21,13 +21,13 @@ header h1 {
   font-weight: bold;
   font-size: 40px;
   text-align: center;
-  width: 85%;
+  width: 90%;
   color: #000;
   padding: 15px; 
   }
 
 nav {
-  width: 9%;
+  width: 90%;
   margin: 10px auto;
   padding:15px;
   border-radius: 15px 15px 15px 15px;
