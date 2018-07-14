@@ -1,16 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"
- name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="stylesheet" type="text/css" href="https://ThereseCorrigan.github.io/Corrigan-Redesign3/stylesheet.css">
+<link rel="stylesheet" type="text/css" href="https://ThereseCorrigan.github.io/Corrigan-Redesign4/style.css">
 
 <link href="https://fonts.googleapis.com/css?family=Lora|Markazi+Text" rel="stylesheet">
 
 <title>Gallery</title>
 
+<style>
+
+body {
+  font-family: 'Markazi Text', serif;
+  font-family: 'Lora', serif;
+  margin: 10px auto;
+  width: 100%;
+  padding:15px;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row > .column {
+  padding: 10px 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 10px;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 </style>
+</head>
+<body> 
+
+<header>
+   <h1><em>Welcome to Financial Services, LLC<em></h1>
+ </header>
+
+   <nav>
+          <ul>
+            <li><a href="https://ThereseCorrigan.github.io/Corrigan-Redesign1/index.html">Home</a></li>
+            <li><a href="https://ThereseCorrigan.github.io/Corrigan-Redesign1/services.html">Services</a></li>
+            <li><a href="https://ThereseCorrigan.github.io/Corrigan-Redesign1/education.html">Education Resources</a></li>
+            <li><a href="https://ThereseCorrigan.github.io/Corrigan-Redesign1/aboutus.html">About Us</a></li>
+            <li><a href="https://ThereseCorrigan.github.io/Corrigan-Redesign3/Business form/form.html">Contact Us</a></li>
+            <li><a class="active" href="https://#">Gallery</a></li>
+         </ul>
+        </nav>
+
+<h1 style="text-align: center">Our Team</h1>
+
+<div class="row">
+  <div class="column">
+    <img src="01.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="02.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="03.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="04.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+ </div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+     <img src="01.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="02.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="03.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="04.jpg" style="width:100%">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="01.jpg" style="width:100%" onclick="currentSlide(1)" alt="Couple talking with financial advisor">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="02.jpg" style="width:100%" onclick="currentSlide(2)" alt="Two women speaking with financial advisor">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="03.jpg" style="width:100%" onclick="currentSlide(3)" alt="Asisan couple speaking with Asisan advisor">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="04.jpg" style="width:100%" onclick="currentSlide(4)" alt="Office workers discussing projecy with client">
+    </div>
+   </div>
+</div>
 
 <script>
 function openModal() {
@@ -51,104 +277,8 @@ function showSlides(n) {
 }
 </script>
 
-</head>
-<body> 
-
-<header>
-    <h1><em>Welcome to Financial Services, LLC<em></h1>
- </header>
-
-   <nav>
-          <ul>
-            <li><a href="https://ThereseCorrigan.github.io/Corrigan-Redesign1/index.html">Home</a></li>
-            <li><a href="https://ThereseCorrigan.github.io/Corrigan-Redesign1/services.html">Services</a></li>
-            <li><a href="https://ThereseCorrigan.github.io/Corrigan-Redesign1/education.html">Education Resources</a></li>
-            <li><a href="https://ThereseCorrigan.github.io/Corrigan-Redesign1/aboutus.html">About Us</a></li>
-            <li><a class="active" href="https://#">Gallery</a></li>
-         </ul>
-        </nav>
-
-<h2 style="text-align:center">Lightbox</h2>
-<!-- Images used to open the lightbox -->
-<div class="row">
-  <div class="column">
-    <img src="01.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="02.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="03.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="04.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="05.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
-  </div>
-</div>
-
-<!-- The Modal/Lightbox -->
-<div id="myModal" class="modal">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
-  <div class="modal-content">
-
-    <div class="mySlides">
-      <div class="numbertext">1 / 4</div>
-      <img src="01.jpg" width="600" height="400">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">2 / 4</div>
-      <img src="02.jpg" width="480" height="319">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">3 / 4</div>
-      <img src="03.jpg" width="425" height="282">
-    </div>
-    
-    <div class="mySlides">
-      <div class="numbertext">4 / 4</div>
-      <img src="04.jpg" width="750"height="442">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">4 / 4</div>
-      <img src="05.jpg" width="600" height="300">
-    </div>
-    
-    <!-- Next/previous controls -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-<!-- Caption text -->
-    <div class="caption-container">
-      <p id="caption"></p>
-    </div>
-
-<!-- Thumbnail image controls -->
-    <div class="column">
-      <img class="demo cursor" src="01.jpg" style="width:100%" onclick="currentSlide(1)" alt="Couple talking with financial advisor">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="02.jpg" style="width:100%" onclick="currentSlide(2)" alt="Two women speaking with financial advisor">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="03.jpg" style="width:100%" onclick="currentSlide(3)" alt="Asisan couple speaking with Asisan advisor">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="04.jpg" style="width:100%" onclick="currentSlide(4)" alt="Office workers discussing projecy with client">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="05.jpg" style="width:100%" onclick="currentSlide(4)" alt="Office workers working on a project">
-    </div>
-  </div>
-</div>
-
-
 <footer>
-<p>Last Updated by Therese Corrigan on 7 July 2018</p>
+<p>Last Updated by Therese Corrigan on 12 July 2018</p>
 </footer>
 
 </body>
