@@ -29,7 +29,7 @@ header h1 {
   /*NEED review NAV COLORS*/
 nav {
     width: 93%;
-    background-color:   #808080; /*color is charcoal-black*/
+    background-color: #333333; /*color is charcoal-black*/
     margin: 10px auto; 
     border-radius: 15px;
     text-align:center;
@@ -72,7 +72,7 @@ nav li a {
 /*MAKE sure change each page to 
 class="active" so will change color*/
 .active {
-  background-color: #228B22; /*color is a forest green*/
+  background-color: #218721; /*color is a forest green*/
   color: white;
   }
 
