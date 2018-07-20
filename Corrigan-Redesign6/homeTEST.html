@@ -8,6 +8,29 @@
 
 <title>Home</title>
 
+<script> 
+var myVideo = document.getElementById("video1"); 
+
+function playPause() { 
+    if (myVideo.paused) 
+        myVideo.play(); 
+    else 
+        myVideo.pause(); 
+} 
+
+function makeBig() { 
+    myVideo.width = 560; 
+} 
+
+function makeSmall() { 
+    myVideo.width = 320; 
+} 
+
+function makeNormal() { 
+    myVideo.width = 420; 
+} 
+</script> 
+
 </head>
 <body>
 
@@ -50,29 +73,6 @@
   <strong>Note:</strong> Your browser does not support this video.
   </video>
 </div>
-
-<script> 
-var myVideo = document.getElementById("video1"); 
-
-function playPause() { 
-    if (myVideo.paused) 
-        myVideo.play(); 
-    else 
-        myVideo.pause(); 
-} 
-
-function makeBig() { 
-    myVideo.width = 560; 
-} 
-
-function makeSmall() { 
-    myVideo.width = 320; 
-} 
-
-function makeNormal() { 
-    myVideo.width = 420; 
-} 
-</script> 
 
  <p>Video courtesy of Financial Services, LLC <a href="https://ThereseCorrigan.github.io/Corrigan-Redesign6/video/AnnuitiesinRetirement.mp4" alt="Video discussing annuities in retirement" target="_blank">Annuities in Retirement</a></p>
 
