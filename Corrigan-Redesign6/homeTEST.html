@@ -8,44 +8,21 @@
 
 <title>Home</title>
 
-<script> 
-var myVideo = document.getElementById("video1"); 
-
-function playPause() { 
-    if (myVideo.paused) 
-        myVideo.play(); 
-    else 
-        myVideo.pause(); 
-} 
-
-function makeBig() { 
-    myVideo.width = 560; 
-} 
-
-function makeSmall() { 
-    myVideo.width = 320; 
-} 
-
-function makeNormal() { 
-    myVideo.width = 420; 
-  } 
-
-</script> 
-
 <style>
 
 button {
     background-color: #218721; /*color is a forest green*/
-    border: 1px solid  #f2f2f2; /*color is gray*/
+    border: 2px solid  #f2f2f2; /*color is gray*/
     font-size: 18px;
     font-weight: bold;
     color: white;
-    padding: 15px;
-    margin: 10px 10px;
+    padding: 10px;
+    margin: 5px 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    height: 50px;
+    height: 1.8em;
+    width: 1.8em;
    }
 </style>
 
@@ -79,17 +56,27 @@ button {
   <p align="center" style="font-weight: 700">Please enjoy the below short video describing just one of the many financial services, that we would be happy to assist you with.</p>  
 
 <div style="text-align:center"> 
-  <button onclick="playPause()">Play/Pause</button> 
-  <button onclick="makeBig()">Big</button>
-  <button onclick="makeSmall()">Small</button>
-  <button onclick="makeNormal()">Normal</button>
-  <br><br>
-  <video id="video1" width="420" height="340">
+  <button onclick="playVid()" type="button">Play Video</button> 
+  <button onclick="pauseVid()" type="button">Pause Video</button> 
+  
+<video id="myVideo" width="320" height="240">
   <source src="https://ThereseCorrigan.github.io/Corrigan-Redesign6/video/AnnuitiesinRetirement.mp4" type=video.mp4" alt="Video discussing annuities in retirement." >
   <source src="https://ThereseCorrigan.github.io/Corrigan-Redesign6/video/AnnuitiesinRetirement_VP8.webm" type="video/webm" alt="Video discussing annuities in retirement." >
   <source src="https://ThereseCorrigan.github.io/Corrigan-Redesign6/video/AnnuitiesinRetirement_libtheora.ogv" type="video/ogg" alt="Video discussing annuities in retirement." >
   <strong>Note:</strong> Your browser does not support this video.
-  </video>
+</video>
+
+<script> 
+var vid = document.getElementById("myVideo"); 
+
+function playVid() { 
+    vid.play(); 
+} 
+
+function pauseVid() { 
+    vid.pause(); 
+} 
+</script> 
 </div>
 
  <p style="text-align:center">Video courtesy of Financial Services, LLC <a href="https://ThereseCorrigan.github.io/Corrigan-Redesign6/video/AnnuitiesinRetirement.mp4" alt="Video discussing annuities in retirement" target="_blank">Annuities in Retirement</a></p>
