@@ -160,15 +160,15 @@ blockquote {
   font-weight: bold;
   border: none;
   outline: none;
-  background-color: #00e600; /*color bright green*/
-  color: white;
+  background-color: #ffff00; /*color -yellow*/
+  color: black;
   cursor: pointer;
   padding: 25px;
   border-radius: 4px;
 }
 
 #myBtn:hover {
-  background-color: #333333; /*color gray*?
+  background-color: #b4b4b4; /*color is pale gray*/
 }
 
 footer {
