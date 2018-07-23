@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="https://ThereseCorrigan.github.io/Corrigan-Redesign6/style.css">
+<link rel="stylesheet" type="text/css" href="https://ThereseCorrigan.github.io/Corrigan-FinalDraft/styleTEST.css">
 
 <link href="https://fonts.googleapis.com/css?family=Lora|Markazi+Text" rel="stylesheet">
 
@@ -54,6 +54,28 @@
             <li><a href="https://ThereseCorrigan.github.io/Corrigan-Redesign6/IMG/gallery.html">Gallery</a></li>
          </ul>
         </nav>
+        
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
 <main>
  <div id="chasing">
   <img src="https://hargisa.neocities.org/Sample3-Business/img/dollar.jpg"  alt="reaching for floating away dollarsigns" height="600";></div>
