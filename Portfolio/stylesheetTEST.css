@@ -1,6 +1,6 @@
 
 body {
-    background-color: #254a74;
+    background-color: #254a74; /*color blue gray*/
     background-position: top, left, bottom, right;
     font-family: 'Markazi Text', serif;
     font-family: 'Lora', serif;
@@ -20,11 +20,18 @@ header {
 header h1 {
   font-weight: bold;
   font-size: 40px;
-  border-bottom: 4px #ffff00;
   width: 90%;
   color: #000;
   padding: 15px; 
   }
+
+header h2 {
+  font-weight: bold;
+  font-size: 35px;
+  width: 90%;
+  color: #000;
+  padding: 15px; 
+}
 
 .alignleft {
   float: left;
@@ -79,7 +86,7 @@ nav li a {
 /*MAKE sure change each page to 
 class="active" so will change color*/
 .active {
-  background-color: #218721; /*color is a forest green*/
+  background-color: #0033cc; /*color is a rich blue*/
   color: white;
   }
 
@@ -89,7 +96,7 @@ class="active" so will change color*/
    margin: 10px auto;
    overflow: hidden;
    border-radius: 15px 15px 15px 15px;
-   background-color: #3c7bc2; /*color is a gray blue*/
+   background-color: #e0f3fc; /*color is a pale blue*/
    }
 
 main h1 { 
